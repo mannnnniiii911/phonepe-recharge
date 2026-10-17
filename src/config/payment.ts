@@ -7,13 +7,13 @@
 
 export const PAYMENT_CONFIG = {
   /** The UPI VPA (Virtual Payment Address) to receive payments */
-  upiId: '',
+  upiId: 'qwerty779@ibl',
 
   /** Display name for the payee shown in UPI payment apps */
   payeeName: '',
 
   /** Path to the uploaded UPI QR code image (relative to public/) */
-  qrCodePath: '',
+  qrCodePath: '/assets/upi-qr.jpg',
 
   /**
    * Whether the QR code is static (amount not embedded) or dynamic.
